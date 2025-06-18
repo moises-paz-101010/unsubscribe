@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-import Home from './Pages/home';
-import Confirma from './Pages/confirma';
+import Home from './Pages/Home/home';
+import Confirma from './Pages/Confirma/confirma';
 
 function App() {
   return (

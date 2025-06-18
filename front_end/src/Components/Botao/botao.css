@@ -1,0 +1,22 @@
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+
+.botao-vermelho {
+  background-color: #ff0000; 
+  color: white; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.botao-vermelho:hover {
+  background-color: #cc0000; 
+}
