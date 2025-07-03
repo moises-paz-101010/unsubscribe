@@ -4,13 +4,12 @@ import "./home.css";
 
 function Home(){
     return (
-        <React.Fragment>
+        <div className='home-container'>
             <h1>
                 Unsubscribe
             </h1>
-
-            {<Botao />}
-        </React.Fragment>
+            <Botao />
+        </div>
     )
 }
 export default Home;
