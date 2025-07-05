@@ -2,10 +2,11 @@
 .botao-vermelho {
   background-color: #ff0000; 
   color: white; 
-  padding: 15px 30px; 
-  font-size: 18px; 
+  padding: 2rem 6rem; 
+  min-width: 30px;
+  font-size: 2rem; 
   border: none;
-  border-radius: 8px; 
+  border-radius: 1.2rem; 
   cursor: pointer;
   transition: background-color 0.3s; 
 }
